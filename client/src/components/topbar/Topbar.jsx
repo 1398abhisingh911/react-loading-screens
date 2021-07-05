@@ -5,7 +5,7 @@ import {
   Search,
   VideoCall,
   Apps,
-  Notifications,
+  Notifications
 } from "@material-ui/icons";
 import Skeleton from "../skeleton/Skeleton";
 
@@ -14,7 +14,7 @@ const Topbar = ({ isLoading, user }) => {
     <div className="topbar">
       <div className="topLeft">
         <img className="logo" src="https://i.ibb.co/KDtnJVY/logo.png" alt="" />
-        <span className="logoText">LamaTube</span>
+        <span className="logoText">AbhiTube</span>
       </div>
       <div className="topCenter">
         <div className="topSearch">
